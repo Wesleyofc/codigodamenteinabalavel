@@ -79,8 +79,7 @@ export function HeroSection() {
           <button
             className="group relative px-12 py-5 rounded-full bg-red text-white font-black uppercase tracking-widest text-lg shadow-lg overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-[0_0_40px_rgba(220,38,38,0.6)]"
             onClick={() => {
-              const target = document.getElementById('codigo');
-              if (target) target.scrollIntoView({ behavior: 'smooth' });
+              window.location.href = 'https://pay.kirvano.com/fc9fafc7-8bdf-4e18-af5f-a1d99d15274d';
             }}
             aria-label="Ir para o código"
           >

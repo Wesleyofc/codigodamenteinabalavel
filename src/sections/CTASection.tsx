@@ -31,8 +31,7 @@ export function CTASection() {
           <button 
             className="group relative w-full sm:w-auto px-12 py-6 bg-red hover:bg-red-dark text-white font-bold text-lg sm:text-xl uppercase tracking-wider rounded-lg transition-all duration-300 hover:scale-[1.02] shadow-glow hover:shadow-glow-intense"
             onClick={() => {
-              // Simulação de checkout
-              alert('Redirecionando para checkout...');
+              window.location.href = 'https://pay.kirvano.com/fc9fafc7-8bdf-4e18-af5f-a1d99d15274d';
             }}
           >
             <span className="relative z-10 flex items-center justify-center gap-3">

@@ -47,7 +47,7 @@ export function ClosingSection() {
           <button 
             className="group relative px-10 py-5 bg-red hover:bg-red-dark text-white font-bold text-lg uppercase tracking-wider rounded-lg transition-all duration-300 hover:scale-[1.02] shadow-glow hover:shadow-glow-intense"
             onClick={() => {
-              alert('Redirecionando para checkout...');
+              window.location.href = 'https://pay.kirvano.com/fc9fafc7-8bdf-4e18-af5f-a1d99d15274d';
             }}
           >
             <span className="relative z-10 flex items-center justify-center gap-3">
